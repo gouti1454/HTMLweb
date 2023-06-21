@@ -76,6 +76,8 @@ IMAGE AND VIDEO REFERENCE: -
 	https://www.pexels.com/video/a-man-in-brown-coat-doing-some-shopping-5889058/
 	https://www.nike.com/gb/w/mens-jackets-gilets-50r7yznik1
 	https://www.superdry.com/search/longline%20down%20puffer%20coat
+
+
 REFERENCE WEBSITE AND LEARNING MATERIALS: -
 	www.w3schools.com 
 	HTML Tutorial
