@@ -1,0 +1,69 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.product-section {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+.login-card {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.form-layout div, button {
+    margin-top: 1rem;
+}
+
+.login-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form {
+    border: 1px solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0a3fd9be-d063-4e9d-8680-fee6a77a4aae": {
+      "ProjectGuid": "0a3fd9be-d063-4e9d-8680-fee6a77a4aae",
+      "DisplayName": "GoutiClothing",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6499049a-0a37-48fb-9486-5d1a51a0845a": {
+      "ProjectGuid": "6499049a-0a37-48fb-9486-5d1a51a0845a",
+      "DisplayName": "GoutiClothing",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

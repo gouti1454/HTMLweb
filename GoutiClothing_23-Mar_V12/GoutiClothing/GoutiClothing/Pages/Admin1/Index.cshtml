@@ -1,0 +1,74 @@
+﻿@page
+@model GoutiClothing.Pages.Admin1.IndexModel
+@*The tempdata object is used for storing only once and then used for displaying a notification,
+using the toastr.jslink*@
+@*this partial notification  "_notification.csthml"" is called from the shared folder*@
+<partial name="_Notification" />
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">
+        Create New &nbsp;<i class="bi bi-vector-pen"></i> </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Summary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ImageFile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Product) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Summary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageFile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">
+                   <i class="bi bi-pencil-square"></i> &nbsp; Edit</a> 
+                    <!--icon is used from bootstrap and space is added using &nbsp;-->
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-primary">
+                    <i class="bi bi-card-text"></i>&nbsp; Details</a> 
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-primary">
+                     <i class="bi bi-trash"></i> &nbsp; Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

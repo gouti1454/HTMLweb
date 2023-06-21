@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*The tempdata object is used for stroring only once and then used for displaying a notification,
+using the toastr.jslink*@
+@* this partial notification is called in the -"Index.cshtml" folder /Productmenu/index.cshtml*@
+@*The partial notificaion can be added,
+  when all the page models are required to use the notification,
+  <partial name="_Notification" />*@
+
+@if (TempData["success"] != null)
+{
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!--https://github.com/CodeSeven/toastr-->
+    <!--the toastr code is used from above source-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+    // Display a success toast, with a title
+    toastr.success('@TempData["success"]');
+    </script>
+}
+
+@if (TempData["error"] != null)
+{
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!--https://github.com/CodeSeven/toastr-->
+    <!--the toastr code is used from above source-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+    // Display a success toast, with a title
+    toastr.error('@TempData["error"]');
+    </script>
+}

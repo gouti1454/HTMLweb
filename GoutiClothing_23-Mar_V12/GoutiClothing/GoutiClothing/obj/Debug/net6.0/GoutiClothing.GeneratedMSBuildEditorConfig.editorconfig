@@ -1,0 +1,140 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GoutiClothing
+build_property.RootNamespace = GoutiClothing
+build_property.ProjectDir = C:\Users\Gouti1454_PC\OneDrive - Nottingham Trent University\Internet_program_source\GoutiClothing_23-Mar_V12\GoutiClothing\GoutiClothing\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Gouti1454_PC\OneDrive - Nottingham Trent University\Internet_program_source\GoutiClothing_23-Mar_V12\GoutiClothing\GoutiClothing
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/About/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/About/SiteMap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRcU2l0ZU1hcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Admin1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4xXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Admin1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4xXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Admin1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4xXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Admin1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4xXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Admin1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4xXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/CheckOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Shared/_ProductItemPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Qcm9kdWN0SXRlbVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Shared/_TopProductPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ub3BQcm9kdWN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gouti1454_PC/OneDrive - Nottingham Trent University/Internet_program_source/GoutiClothing_23-Mar_V12/GoutiClothing/GoutiClothing/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-02eoc0mtc8

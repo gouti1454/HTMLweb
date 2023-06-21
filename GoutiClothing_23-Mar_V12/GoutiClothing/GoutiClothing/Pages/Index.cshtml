@@ -1,0 +1,126 @@
+﻿@page
+@using GoutiClothing.Pages
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@*Home page is directed to Pages/Index.Cshtml*@
+<hr />
+
+@*// Project landing page is on the Index.cstml*@
+@*// website images and vides are used from https://www.pexels.com/ *@
+@*//Men wearing puffer jackets  *@
+@*//https://www.pexels.com/license/*@
+@*
+What is allowed?
+
+We tried to keep the Pexels License as simple as possible. Keep reading to find out more.
+
+    All photos and videos on Pexels are free to use.
+    Attribution is not required. Giving credit to the photographer or Pexels is not necessary but always appreciated.
+    You can modify the photos and videos from Pexels. Be creative and edit them as you like.
+
+*@
+@*//<div class="container">*@
+<div class="">
+
+    <div class="row">
+        <div style="">
+        <video src="~/video/video.mp4" id="myVideo" loop="true" class="videoPlayer" style="width:100%" autoplay="autoplay" muted="true" ></video>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            @*Boot Carousel is used for Slide shows*@
+            @*Provide the necessary slides https://getbootstrap.com/docs/4.0/components/carousel/*@
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="~/images/banner/banner1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/banner/banner2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/banner/banner3.jpg" alt="Second slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+@*//<div class="container mt-3">*@
+
+
+<div class="">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card">
+                 @*Our Last products Container is added*@
+                <div class=" text-uppercase product-section">
+                    Our Latest products
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                       @* for loop is used to display the  products in the container*@
+
+                        @foreach (var product in Model.ProductList.Take(4))
+                        {
+                            <div class="col-sm">
+                                <partial name="_ProductItemPartial" model="@product" />
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*//<div class="container mt-3 mb-4">*@
+
+<div class="">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card">
+                @*Top selling products Container is added*@
+                <div class="text-uppercase product-section">
+                     Top selling products
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        @* for loop is used to display the  products in the container*@
+                        
+                            @foreach (var product in Model.ProductList.TakeLast(4))
+                            {
+                                <div class="col-sm">
+                                    <partial name="_ProductItemPartial" model="@product" />
+                                </div>
+                            }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   @* <div class="row">
+        <div style="">
+        <video src="~/video/video.mp4" id="myVideo" loop="true" class="videoPlayer" style="width:100%" autoplay="autoplay" muted="true" ></video>
+        </div>
+    </div>*@
+
+</div>

@@ -1,0 +1,105 @@
+﻿@page
+@model GoutiClothing.Pages.About.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- -->
+  <title>About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ 
+
+  <style>
+  .body {
+    /*font: 20px Montserrat, sans-serif;*/
+    line-height: 1.8;
+    color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: black; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: whitesmoke; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2F4F4F; /* Black Gray#2f2f2f */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+ 
+  </style>
+</head>
+<body>
+
+
+<!-- First Container -->
+<div class="container-fluid rounded bg-1 text-center">
+  <h3 class="margin">ABOUT</h3>
+  <img src="/images/LOGO_05.png" class="img-responsive rounded-circle margin" style="display:inline" alt="ME Logo" width="350" height="350">
+  
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Professional Experience</h3>
+  <p style="color: whitesmoke">
+        14+ Years of experience in Software Quality Assurance, with a proactive approach towards Risk management, Project facilitation, Training, Auditing and Process improvements.
+        Skilled in implementation of ISO 9001:2015, CMMI V2.0 multi model and TL9000 surveillance audits.
+        Statistical approach towards goal improvements on project, account, and Org. wide.<br/>
+        My biggest strength is people connect with the project team, which lets to work in-line with Client goals. 
+  </p>
+  
+    @*<a href="~/Product" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </a>*@
+  
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid rounded bg-3 text-center">    
+  <h3 class="margin">MORE INFO</h3><br>
+  <div class="row">
+    <div class="col-sm-4 ">
+      <img src="/images/LOGO_01.png" class="img-responsive rounded-circle margin" style="width:100%" alt="Image">
+     <a href="https://www.gouti1454.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">EMAIL</a>
+      <br/>
+    </div>
+    <div class="col-sm-4"> 
+      
+      
+      <img src="/images/LOGO_03.png" class="img-responsive rounded-circle margin" style="width:100%" alt="Image">
+
+      <a href="https://www.gouti1454.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">MOBILE</a>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="/images/LOGO_06.png" class="img-responsive rounded-circle margin" style="width:100%" alt="Image">
+
+      <a href="https://www.gouti1454.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">BLOG</a>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+
+</body>
+</html>
